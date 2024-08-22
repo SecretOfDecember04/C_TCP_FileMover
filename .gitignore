@@ -1,0 +1,24 @@
+# Ignore build directories
+cmake-build-*/
+
+# Ignore executables
+ftpc
+ftps
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore system-specific files
+*.DS_Store
+Thumbs.db
+
+# Ignore CLion project files
+.idea/
+*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
